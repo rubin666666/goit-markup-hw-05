@@ -1,5 +1,6 @@
 
 
+
 @import url('https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
 
@@ -774,4 +775,14 @@ color: #ffffff;
 .modal-form-submit:hover,
 .modal-form-submit:focus {
   background-color: #404bbf;
+}
+/* Modal form description styles */
+.modal-form-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+  color: var(--color-navy);
+  text-align: center;
+  font-weight: 500;
 }
