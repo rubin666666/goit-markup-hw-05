@@ -811,13 +811,14 @@ color: #ffffff;
   align-items: center;
   justify-content: center;
   margin-right: 8px;
+  fill: transparent;
 }
 
-.modal-form-checkbox:checked+.modal-form-checkbox-label .modal-form-custom-checkbox {
+/*.modal-form-checkbox:checked+.modal-form-checkbox-label .modal-form-custom-checkbox {
   background-color: var(--color-ocean);
   border: none;
   fill: var(--color-cloud);
-}
+}*/
 
 .modal-form-checkbox-icon {
   width: 10px;
