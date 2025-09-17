@@ -387,14 +387,15 @@
                 </ul>
             </div>
             <div class="footer-form-container">
-                <p class="footer-form-title">Subscribe</p>
                 <form class="footer-form" action="#" method="post" name="subscribe">
-                    <label class="footer-form-label visually-hidden" for="footer-email">Email for subscription</label>
-                    <input class="footer-form-input" type="email" name="footer-email" id="footer-email"
-                        placeholder="E-mail" required />
+                    <label class="footer-form-label" for="footer-email">
+                        <span class="footer-form-title">Subscribe</span>
+                        <input class="footer-form-input" type="email" name="footer-email" id="footer-email"
+                            placeholder="E-mail" required />
+                    </label>
                     <button class="footer-form-btn" type="submit">
                         Subscribe
-                        <svg class="footer-form-icon" width="24" height="24" style="margin-left:16px;">
+                        <svg class="footer-form-icon" width="24" height="24">
                             <use href="./images/icons.svg#icon-telegram"></use>
                         </svg>
                     </button>
@@ -412,9 +413,9 @@
             </button>
             <p class="modal-title">Leave your contacts and we will call you back</p>
             <form class="modal-form" action="#" name="contact-form" method="post" data-netlify="true"
-                netlify-honeypot="bot-field">
+                data-netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="contact-form">
-                <p class="visually-hidden">Don't fill this out if you're human: <input name="bot-field"></input></p>
+                <p class="visually-hidden">Don't fill this out if you're human: <input name="bot-field" /></p>
                 <div class="modal-form-field">
                     <label class="modal-form-label" for="user-name">Name</label>
                     <div class="modal-form-input-wrap">
