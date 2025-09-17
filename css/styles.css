@@ -37,6 +37,7 @@
 }
 .footer-subscribe-input::placeholder {
   color: #ffffff;
+  opacity: 1;
 }
 .footer-subscribe-btn {
   min-width: 165px;
