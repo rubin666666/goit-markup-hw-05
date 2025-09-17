@@ -813,6 +813,7 @@ color: #ffffff;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    fill: transparent;
 }
 
 .modal-form-checkbox:checked+.modal-form-checkbox-label .modal-form-custom-checkbox {
