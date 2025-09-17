@@ -30,7 +30,12 @@
 }
 
 .team-info {
-  padding: 32px 0;
+  padding: 32px 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
 }
 
 .team-name {
@@ -47,17 +52,18 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
-  margin: 0;
-  margin-bottom: 8px;
+  color: #8e8f99;
+  margin-bottom: 16px;
+  text-align: center;
 }
 .social-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   list-style: none;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 .social-link {
   display: flex;
@@ -134,6 +140,7 @@ body {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+
 }
 
 .section {
@@ -304,28 +311,48 @@ body {
 }
 
 /* ================= FEATURES ================= */
+.features-section {
+  padding: 120px 0;
+}
+
 .features-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
   list-style: none;
+  padding: 0;
+    margin: 0;
 }
 
 .feature-item {
   width: calc((100% - 72px) / 4);
   text-align: left;
+  list-style: none;
 }
 
 .feature-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  margin-bottom: 8px;
-  background-color: var(--color-cloud);
-  border-radius: 4px;
-  border: 1px solid var(--color-light-slate);
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      background-color: var(--color-cloud);
+      border-radius: 4px;
+      margin-bottom: 8px;
+      height: 112px;
+      background-color: #f4f4fd;
+      border: 1px solid #8e8f99;
+}
+
+.feature-icon svg {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 64px;
+  height: 64px;
+  vertical-align: middle;
+  box-sizing: content-box;
+  overflow: visible;
 }
 
 .feature-title {
@@ -350,6 +377,8 @@ body {
   row-gap: 48px;
   justify-content: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .gallery-item {
@@ -401,14 +430,18 @@ body {
 .gallery-title {
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 8px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-navy);
+  margin-bottom: 8px;
 }
 
 .gallery-type {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-slate);
+  margin: 0;
 }
 
 /* ================= TEAM ================= */
@@ -421,12 +454,12 @@ body {
   gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
-  list-style: none;
   text-align: center;
+  list-style: none;
 }
 
 .team-card {
-  background-color: var(--color-white);
+  background-color:#fff ;
   width: 264px;
   border-radius: 0 0 4px 4px;
   box-shadow:
@@ -442,14 +475,19 @@ body {
 .team-name {
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 8px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-navy);
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-role {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-slate);
+  margin: 0;
   margin-bottom: 8px;
 }
 
@@ -826,14 +864,17 @@ color: #ffffff;
 }
 
 
-
-.features-section {
-    /* TODO: Add styles */
+.section-title {  font-family: var(--font-accent);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--color-navy);
+  text-align: center;
+  margin-bottom: 64px;
 }
 
-.section-title {
-    /* TODO: Add styles */
-}
+
 
 .gallery-section {
     /* TODO: Add styles */
@@ -855,14 +896,22 @@ color: #ffffff;
     /* TODO: Add styles */
 }
 
+#user-name {
+    /* TODO: Add styles */
+}
+
+#user-phone {
+    /* TODO: Add styles */
+}
+
+#user-email {
+    /* TODO: Add styles */
+}
+
 #user-comment {
     /* TODO: Add styles */
 }
 
 #user-privacy {
-    /* TODO: Add styles */
-}
-
-#user-name {
     /* TODO: Add styles */
 }
