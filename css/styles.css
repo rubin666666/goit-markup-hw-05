@@ -672,6 +672,7 @@ color: #ffffff;
 
 .modal-form-field {
   margin-bottom: 8px;
+  align-items: center
 }
 
 .modal-form-label {
@@ -824,10 +825,11 @@ color: #ffffff;
   font-weight: 500;
 }
 
-.features-section {
-    padding: 80px 0;
-}
 
+
+.features-section {
+    /* TODO: Add styles */
+}
 
 .section-title {
     /* TODO: Add styles */
@@ -853,26 +855,10 @@ color: #ffffff;
     /* TODO: Add styles */
 }
 
-#user-name {
-    /* TODO: Add styles */
-}
-
-#user-phone {
-    /* TODO: Add styles */
-}
-
-#user-email {
-    /* TODO: Add styles */
-}
-
 #user-comment {
     /* TODO: Add styles */
 }
 
 #user-privacy {
-    /* TODO: Add styles */
-}
-
-.modal-icons-wrap {
     /* TODO: Add styles */
 }
